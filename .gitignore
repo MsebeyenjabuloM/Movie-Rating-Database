@@ -1,0 +1,36 @@
+
+# ============================================================
+# Movie Rating Database
+# File: .gitignore
+# Purpose: Exclude unnecessary or sensitive files from Git.
+# ============================================================
+
+# Environment files that may contain passwords or credentials
+.env
+.env.*
+!.env.example
+
+# PostgreSQL database backups and exports
+*.backup
+*.dump
+*.sql.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+
+# VS Code local workspace settings
+.vscode/
+
+# Python cache files (if Python is added in the future)
+__pycache__/
+*.pyc
